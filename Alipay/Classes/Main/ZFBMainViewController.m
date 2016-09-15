@@ -7,6 +7,7 @@
 //
 
 #import "ZFBMainViewController.h"
+#import "ZFBNavigationController.h"
 
 @interface ZFBMainViewController ()
 
@@ -30,8 +31,8 @@
     NSMutableArray *children = [NSMutableArray array];
 //    创建4个子控件
     [children addObject:[self viewControllerWithClsName:@"ZFBHomeViewController" title:@"支付宝" imgName:@"TabBar_HomeBar"]];
-    [children addObject:[self viewControllerWithClsName:@"ZFBBusinessViewController" title:@"口碑" imgName:@"TabBar_BusinessBar"]];
-    [children addObject:[self viewControllerWithClsName:@"ZFBFriendsViewController" title:@"朋友" imgName:@"TabBar_FriendsBar"]];
+    [children addObject:[self viewControllerWithClsName:@"ZFBBusinessViewController" title:@"口碑" imgName:@"TabBar_Businesses"]];
+    [children addObject:[self viewControllerWithClsName:@"ZFBFriendsViewController" title:@"朋友" imgName:@"TabBar_Friends"]];
     [children addObject:[self viewControllerWithClsName:@"ZFBMineViewController" title:@"我的" imgName:@"TabBar_Assets"]];
     
 //    设置为子控件
@@ -47,12 +48,19 @@
 //    2、添加图片
     vc.tabBarItem.image = [UIImage imageNamed:imgName];
     
-    vc.tabBarItem.selectedImage = [UIImage imageNamed:[imgName stringByAppendingString:@"_Sel"]];
+    
+    UIImage *imgSel = [UIImage imageNamed:[imgName stringByAppendingString:@"_Sel"]];
+//    显示原本的颜色
+    vc.tabBarItem.selectedImage = [imgSel imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
     
 //    3、设置文字
     vc.title = title;
+   
+//    设置nav控制器
+    ZFBNavigationController *nvc = [[ZFBNavigationController alloc]initWithRootViewController:vc];
     
-    return vc;
+    return nvc;
                                    
 }
 
