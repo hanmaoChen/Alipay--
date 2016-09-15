@@ -27,6 +27,7 @@
 		E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEB1D8AD5BD009ED12F /* NSObject+HMAddition.m */; };
 		E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */; };
 		E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */; };
+		E68690021D8AD695009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690011D8AD695009ED12F /* ZFBMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,8 @@
 		E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMAddition.m"; sourceTree = "<group>"; };
 		E6868FEE1D8AD5BD009ED12F /* UILabel+HMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMAddition.h"; sourceTree = "<group>"; };
 		E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HMAddition.m"; sourceTree = "<group>"; };
+		E68690001D8AD695009ED12F /* ZFBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMainViewController.h; sourceTree = "<group>"; };
+		E68690011D8AD695009ED12F /* ZFBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 		E6868FC21D8AD548009ED12F /* Business(主要的） */ = {
 			isa = PBXGroup;
 			children = (
+				E68690001D8AD695009ED12F /* ZFBMainViewController.h */,
+				E68690011D8AD695009ED12F /* ZFBMainViewController.m */,
 			);
 			name = "Business(主要的）";
 			path = Business;
@@ -272,6 +277,7 @@
 		E6868F9F1D8AD384009ED12F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZFB;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = " chenhanmao";
 				TargetAttributes = {
@@ -331,6 +337,7 @@
 				E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */,
 				E6868FF71D8AD5BD009ED12F /* NSArray+MASAdditions.m in Sources */,
 				E6868FFC1D8AD5BD009ED12F /* NSAttributedString+HMAdditon.m in Sources */,
+				E68690021D8AD695009ED12F /* ZFBMainViewController.m in Sources */,
 				E6868FF41D8AD5BD009ED12F /* MASLayoutConstraint.m in Sources */,
 				E6868FAC1D8AD384009ED12F /* main.m in Sources */,
 				E6868FF61D8AD5BD009ED12F /* MASViewConstraint.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZFBMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+//    1、创建window
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    2、指定根控制器
+    ZFBMainViewController *vc = [[ZFBMainViewController alloc]init];
+    _window.rootViewController = vc;
+    
+//    3、成为主窗口并可见
+    [_window makeKeyAndVisible];
     return YES;
 }
 
