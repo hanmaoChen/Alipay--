@@ -1,5 +1,5 @@
 //
-//  ZFBMainViewController.h
+//  ZFBMineViewController.h
 //  Alipay
 //
 //  Created by  chenhanmao on 16/9/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZFBMainViewController : UIViewController
+@interface ZFBMineViewController : UIViewController
 
 @end

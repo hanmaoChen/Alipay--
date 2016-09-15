@@ -27,7 +27,12 @@
 		E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEB1D8AD5BD009ED12F /* NSObject+HMAddition.m */; };
 		E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */; };
 		E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */; };
-		E68690021D8AD695009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690011D8AD695009ED12F /* ZFBMainViewController.m */; };
+		E68690051D8ADE3E009ED12F /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */; };
+		E68690081D8ADE4C009ED12F /* ZFBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */; };
+		E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */; };
+		E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690111D8AE187009ED12F /* ZFBMainViewController.m */; };
+		E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */; };
+		E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690181D8AE47B009ED12F /* ZFBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +80,18 @@
 		E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMAddition.m"; sourceTree = "<group>"; };
 		E6868FEE1D8AD5BD009ED12F /* UILabel+HMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMAddition.h"; sourceTree = "<group>"; };
 		E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HMAddition.m"; sourceTree = "<group>"; };
-		E68690001D8AD695009ED12F /* ZFBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMainViewController.h; sourceTree = "<group>"; };
-		E68690011D8AD695009ED12F /* ZFBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMainViewController.m; sourceTree = "<group>"; };
+		E68690031D8ADE3E009ED12F /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
+		E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
+		E68690061D8ADE4C009ED12F /* ZFBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBHomeViewController.h; sourceTree = "<group>"; };
+		E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBHomeViewController.m; sourceTree = "<group>"; };
+		E686900C1D8ADE66009ED12F /* ZFBMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMineViewController.h; sourceTree = "<group>"; };
+		E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMineViewController.m; sourceTree = "<group>"; };
+		E68690101D8AE187009ED12F /* ZFBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMainViewController.h; sourceTree = "<group>"; };
+		E68690111D8AE187009ED12F /* ZFBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMainViewController.m; sourceTree = "<group>"; };
+		E68690141D8AE205009ED12F /* ZFBBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessViewController.h; sourceTree = "<group>"; };
+		E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
+		E68690171D8AE47B009ED12F /* ZFBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBNavigationController.h; sourceTree = "<group>"; };
+		E68690181D8AE47B009ED12F /* ZFBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,28 +148,20 @@
 		E6868FC11D8AD548009ED12F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E6868FC21D8AD548009ED12F /* Business(主要的） */,
+				E686900F1D8AE187009ED12F /* Main（主要的） */,
 				E6868FC31D8AD548009ED12F /* Friends（朋友） */,
 				E6868FC41D8AD548009ED12F /* Home（首页） */,
-				E6868FC51D8AD548009ED12F /* Main（主要的） */,
+				E68690131D8AE1A4009ED12F /* Business（口碑） */,
 				E6868FC61D8AD548009ED12F /* Mine（我的） */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		E6868FC21D8AD548009ED12F /* Business(主要的） */ = {
-			isa = PBXGroup;
-			children = (
-				E68690001D8AD695009ED12F /* ZFBMainViewController.h */,
-				E68690011D8AD695009ED12F /* ZFBMainViewController.m */,
-			);
-			name = "Business(主要的）";
-			path = Business;
-			sourceTree = "<group>";
-		};
 		E6868FC31D8AD548009ED12F /* Friends（朋友） */ = {
 			isa = PBXGroup;
 			children = (
+				E68690031D8ADE3E009ED12F /* ZFBFriendsViewController.h */,
+				E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */,
 			);
 			name = "Friends（朋友）";
 			path = Friends;
@@ -163,22 +170,18 @@
 		E6868FC41D8AD548009ED12F /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				E68690061D8ADE4C009ED12F /* ZFBHomeViewController.h */,
+				E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */,
 			);
 			name = "Home（首页）";
 			path = Home;
 			sourceTree = "<group>";
 		};
-		E6868FC51D8AD548009ED12F /* Main（主要的） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Main（主要的）";
-			path = Main;
-			sourceTree = "<group>";
-		};
 		E6868FC61D8AD548009ED12F /* Mine（我的） */ = {
 			isa = PBXGroup;
 			children = (
+				E686900C1D8ADE66009ED12F /* ZFBMineViewController.h */,
+				E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */,
 			);
 			name = "Mine（我的）";
 			path = Mine;
@@ -249,6 +252,28 @@
 				E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */,
 			);
 			path = Additions;
+			sourceTree = "<group>";
+		};
+		E686900F1D8AE187009ED12F /* Main（主要的） */ = {
+			isa = PBXGroup;
+			children = (
+				E68690101D8AE187009ED12F /* ZFBMainViewController.h */,
+				E68690111D8AE187009ED12F /* ZFBMainViewController.m */,
+				E68690171D8AE47B009ED12F /* ZFBNavigationController.h */,
+				E68690181D8AE47B009ED12F /* ZFBNavigationController.m */,
+			);
+			name = "Main（主要的）";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E68690131D8AE1A4009ED12F /* Business（口碑） */ = {
+			isa = PBXGroup;
+			children = (
+				E68690141D8AE205009ED12F /* ZFBBusinessViewController.h */,
+				E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */,
+			);
+			name = "Business（口碑）";
+			path = Business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,20 +349,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6868FF21D8AD5BD009ED12F /* MASConstraint.m in Sources */,
+				E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */,
 				E6868FF51D8AD5BD009ED12F /* MASViewAttribute.m in Sources */,
 				E6868FFA1D8AD5BD009ED12F /* ViewController+MASAdditions.m in Sources */,
 				E6868FF31D8AD5BD009ED12F /* MASConstraintMaker.m in Sources */,
+				E68690081D8ADE4C009ED12F /* ZFBHomeViewController.m in Sources */,
 				E6868FFB1D8AD5BD009ED12F /* NSArray+HMAddition.m in Sources */,
 				E6868FF81D8AD5BD009ED12F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				E6868FAF1D8AD384009ED12F /* AppDelegate.m in Sources */,
 				E6868FF11D8AD5BD009ED12F /* MASCompositeConstraint.m in Sources */,
 				E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */,
 				E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */,
+				E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */,
 				E6868FF91D8AD5BD009ED12F /* View+MASAdditions.m in Sources */,
 				E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */,
+				E68690051D8ADE3E009ED12F /* ZFBFriendsViewController.m in Sources */,
+				E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */,
 				E6868FF71D8AD5BD009ED12F /* NSArray+MASAdditions.m in Sources */,
 				E6868FFC1D8AD5BD009ED12F /* NSAttributedString+HMAdditon.m in Sources */,
-				E68690021D8AD695009ED12F /* ZFBMainViewController.m in Sources */,
+				E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */,
 				E6868FF41D8AD5BD009ED12F /* MASLayoutConstraint.m in Sources */,
 				E6868FAC1D8AD384009ED12F /* main.m in Sources */,
 				E6868FF61D8AD5BD009ED12F /* MASViewConstraint.m in Sources */,

@@ -1,18 +1,18 @@
 //
-//  ZFBMainViewController.m
+//  ZFBBusinessViewController.m
 //  Alipay
 //
 //  Created by  chenhanmao on 16/9/15.
 //  Copyright © 2016年  chenhanmao. All rights reserved.
 //
 
-#import "ZFBMainViewController.h"
+#import "ZFBBusinessViewController.h"
 
-@interface ZFBMainViewController ()
+@interface ZFBBusinessViewController ()
 
 @end
 
-@implementation ZFBMainViewController
+@implementation ZFBBusinessViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
