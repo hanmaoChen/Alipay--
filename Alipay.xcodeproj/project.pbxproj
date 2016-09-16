@@ -33,6 +33,11 @@
 		E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690111D8AE187009ED12F /* ZFBMainViewController.m */; };
 		E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */; };
 		E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690181D8AE47B009ED12F /* ZFBNavigationController.m */; };
+		E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */; };
+		E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */; };
+		E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */; };
+		E6EDC30A1D8AF5A000C8AD2E /* homeAllFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EDC3091D8AF5A000C8AD2E /* homeAllFunctions.plist */; };
+		E6EDC30D1D8AF5FF00C8AD2E /* ZFBFunctionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC30C1D8AF5FF00C8AD2E /* ZFBFunctionModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +97,14 @@
 		E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
 		E68690171D8AE47B009ED12F /* ZFBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBNavigationController.h; sourceTree = "<group>"; };
 		E68690181D8AE47B009ED12F /* ZFBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavigationController.m; sourceTree = "<group>"; };
+		E6EDC3011D8AF50600C8AD2E /* ZFBCommonFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCommonFunctionView.h; sourceTree = "<group>"; };
+		E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCommonFunctionView.m; sourceTree = "<group>"; };
+		E6EDC3041D8AF52600C8AD2E /* ZFBFunctionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFunctionListView.h; sourceTree = "<group>"; };
+		E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFunctionListView.m; sourceTree = "<group>"; };
+		E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = homeCommonFunctions.plist; sourceTree = "<group>"; };
+		E6EDC3091D8AF5A000C8AD2E /* homeAllFunctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = homeAllFunctions.plist; sourceTree = "<group>"; };
+		E6EDC30B1D8AF5FF00C8AD2E /* ZFBFunctionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFunctionModel.h; sourceTree = "<group>"; };
+		E6EDC30C1D8AF5FF00C8AD2E /* ZFBFunctionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFunctionModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,8 +183,12 @@
 		E6868FC41D8AD548009ED12F /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
+				E6EDC3001D8AF46E00C8AD2E /* 功能列表 */,
+				E6EDC2FF1D8AF3FC00C8AD2E /* 常用功能 */,
 				E68690061D8ADE4C009ED12F /* ZFBHomeViewController.h */,
 				E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */,
+				E6EDC30B1D8AF5FF00C8AD2E /* ZFBFunctionModel.h */,
+				E6EDC30C1D8AF5FF00C8AD2E /* ZFBFunctionModel.m */,
 			);
 			name = "Home（首页）";
 			path = Home;
@@ -276,6 +293,26 @@
 			path = Business;
 			sourceTree = "<group>";
 		};
+		E6EDC2FF1D8AF3FC00C8AD2E /* 常用功能 */ = {
+			isa = PBXGroup;
+			children = (
+				E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */,
+				E6EDC3011D8AF50600C8AD2E /* ZFBCommonFunctionView.h */,
+				E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */,
+			);
+			name = "常用功能";
+			sourceTree = "<group>";
+		};
+		E6EDC3001D8AF46E00C8AD2E /* 功能列表 */ = {
+			isa = PBXGroup;
+			children = (
+				E6EDC3091D8AF5A000C8AD2E /* homeAllFunctions.plist */,
+				E6EDC3041D8AF52600C8AD2E /* ZFBFunctionListView.h */,
+				E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */,
+			);
+			name = "功能列表";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,6 +374,8 @@
 			files = (
 				E6868FBA1D8AD384009ED12F /* LaunchScreen.storyboard in Resources */,
 				E6868FB71D8AD384009ED12F /* Assets.xcassets in Resources */,
+				E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */,
+				E6EDC30A1D8AF5A000C8AD2E /* homeAllFunctions.plist in Resources */,
 				E6868FF01D8AD5BD009ED12F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +389,7 @@
 			files = (
 				E6868FF21D8AD5BD009ED12F /* MASConstraint.m in Sources */,
 				E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */,
+				E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */,
 				E6868FF51D8AD5BD009ED12F /* MASViewAttribute.m in Sources */,
 				E6868FFA1D8AD5BD009ED12F /* ViewController+MASAdditions.m in Sources */,
 				E6868FF31D8AD5BD009ED12F /* MASConstraintMaker.m in Sources */,
@@ -359,9 +399,11 @@
 				E6868FAF1D8AD384009ED12F /* AppDelegate.m in Sources */,
 				E6868FF11D8AD5BD009ED12F /* MASCompositeConstraint.m in Sources */,
 				E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */,
+				E6EDC30D1D8AF5FF00C8AD2E /* ZFBFunctionModel.m in Sources */,
 				E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */,
 				E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */,
 				E6868FF91D8AD5BD009ED12F /* View+MASAdditions.m in Sources */,
+				E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */,
 				E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */,
 				E68690051D8ADE3E009ED12F /* ZFBFriendsViewController.m in Sources */,
 				E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */,
