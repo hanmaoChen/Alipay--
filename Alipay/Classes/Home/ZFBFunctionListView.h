@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ZFBFunctionListView : UIView
-
+@property(nonatomic,strong)NSArray *functionList;
 @end

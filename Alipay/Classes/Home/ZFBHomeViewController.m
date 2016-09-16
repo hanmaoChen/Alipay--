@@ -10,6 +10,7 @@
 #import "ZFBCommonFunctionView.h"
 #import "HMAdditions.h"
 #import "Masonry.h"
+#import "ZFBFunctionListView.h"
 @interface ZFBHomeViewController ()
 
 @end
@@ -28,7 +29,7 @@
 //
 - (void)setupUI{
     
-//    创建常用功能视图
+//    1、创建常用功能视图
     ZFBCommonFunctionView *vTop = [[ZFBCommonFunctionView alloc]init];
     vTop.backgroundColor = [UIColor hm_colorWithHex:0x3a3a3a];
     
@@ -38,16 +39,29 @@
     [self.view addSubview:vTop];
     
     
-//    创建功能视图列表
+//    2、创建功能视图列表
+    ZFBFunctionListView *vBottom = [[ZFBFunctionListView alloc]init];
+    vBottom.backgroundColor = [UIColor whiteColor];
+    
+    vBottom.functionList = [NSArray hm_objectListWithPlistName:@"homeAllFunctions.plist" clsName:@"ZFBFunctionModel"];
+    
+    [self.view addSubview:vBottom];
     
 //    自动布局
-    
+//    1)常用功能
     [vTop mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.top.equalTo(self.mas_topLayoutGuide);//要参照头部的辅助布局来定位（如果有导航栏则以导航栏底部开始布局，如果没有则以状态栏底部布局）
         make.left.right.equalTo(self.view);
         make.height.mas_equalTo(115);
         
+    }];
+//    2）功能列表
+    [vBottom mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.top.equalTo(vTop.mas_bottom);
+        make.left.right.equalTo(self.view);
+        make.bottom.equalTo(self.mas_bottomLayoutGuide);
     }];
     
     
