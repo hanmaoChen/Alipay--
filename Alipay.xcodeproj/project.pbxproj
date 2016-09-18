@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6007B271D8D272E00CFF425 /* CHMSlideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007B221D8D272E00CFF425 /* CHMSlideCell.m */; };
+		E6007B281D8D272E00CFF425 /* CHMSlideLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007B241D8D272E00CFF425 /* CHMSlideLayout.m */; };
+		E6007B291D8D272E00CFF425 /* CHMSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007B261D8D272E00CFF425 /* CHMSlideView.m */; };
+		E6007B371D8D296900CFF425 /* ZFBADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007B361D8D296900CFF425 /* ZFBADCell.m */; };
+		E6007BBA1D8D3EFA00CFF425 /* business.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6007BAF1D8D3EFA00CFF425 /* business.plist */; };
+		E6007BBC1D8D3EFA00CFF425 /* ZFBBusinessStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BB21D8D3EFA00CFF425 /* ZFBBusinessStore.m */; };
+		E6007BBD1D8D3EFA00CFF425 /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BB41D8D3EFA00CFF425 /* ZFBBusinessViewController.m */; };
+		E6007BBE1D8D3EFA00CFF425 /* ZFBHanderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6007BB51D8D3EFA00CFF425 /* ZFBHanderView.xib */; };
+		E6007BBF1D8D3EFA00CFF425 /* ZFBStarLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BB71D8D3EFA00CFF425 /* ZFBStarLevel.m */; };
+		E6007BC01D8D3EFA00CFF425 /* ZFBStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BB91D8D3EFA00CFF425 /* ZFBStoreCell.m */; };
+		E6007BC61D8D3F7C00CFF425 /* BusinessStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6007BC51D8D3F7C00CFF425 /* BusinessStore.xib */; };
+		E6007BD51D8D6F0900CFF425 /* businessType.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6007BCC1D8D6F0900CFF425 /* businessType.plist */; };
+		E6007BD61D8D6F0900CFF425 /* ZFBBusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BCE1D8D6F0900CFF425 /* ZFBBusinessCell.m */; };
+		E6007BD71D8D6F0900CFF425 /* ZFBbusinessLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BD01D8D6F0900CFF425 /* ZFBbusinessLayout.m */; };
+		E6007BD81D8D6F0900CFF425 /* ZFBBusinessType.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BD21D8D6F0900CFF425 /* ZFBBusinessType.m */; };
+		E6007BD91D8D6F0900CFF425 /* ZFBBusinessTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6007BD41D8D6F0900CFF425 /* ZFBBusinessTypeView.m */; };
 		E6868FAC1D8AD384009ED12F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FAB1D8AD384009ED12F /* main.m */; };
 		E6868FAF1D8AD384009ED12F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FAE1D8AD384009ED12F /* AppDelegate.m */; };
 		E6868FB71D8AD384009ED12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6868FB61D8AD384009ED12F /* Assets.xcassets */; };
@@ -27,12 +43,16 @@
 		E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEB1D8AD5BD009ED12F /* NSObject+HMAddition.m */; };
 		E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */; };
 		E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */; };
-		E68690051D8ADE3E009ED12F /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */; };
 		E68690081D8ADE4C009ED12F /* ZFBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */; };
 		E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */; };
 		E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690111D8AE187009ED12F /* ZFBMainViewController.m */; };
-		E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */; };
 		E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690181D8AE47B009ED12F /* ZFBNavigationController.m */; };
+		E691203F1D8E54D700112B08 /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */; };
+		E69120461D8E55C800112B08 /* Home_Scroll_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120411D8E55C800112B08 /* Home_Scroll_01.jpg */; };
+		E69120471D8E55C800112B08 /* Home_Scroll_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120421D8E55C800112B08 /* Home_Scroll_02.jpg */; };
+		E69120481D8E55C800112B08 /* Home_Scroll_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120431D8E55C800112B08 /* Home_Scroll_03.jpg */; };
+		E69120491D8E55C800112B08 /* Home_Scroll_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120441D8E55C800112B08 /* Home_Scroll_04.jpg */; };
+		E691204A1D8E55C800112B08 /* Home_Scroll_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120451D8E55C800112B08 /* Home_Scroll_05.jpg */; };
 		E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */; };
 		E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */; };
 		E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */; };
@@ -43,6 +63,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6007B211D8D272E00CFF425 /* CHMSlideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMSlideCell.h; sourceTree = "<group>"; };
+		E6007B221D8D272E00CFF425 /* CHMSlideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMSlideCell.m; sourceTree = "<group>"; };
+		E6007B231D8D272E00CFF425 /* CHMSlideLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMSlideLayout.h; sourceTree = "<group>"; };
+		E6007B241D8D272E00CFF425 /* CHMSlideLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMSlideLayout.m; sourceTree = "<group>"; };
+		E6007B251D8D272E00CFF425 /* CHMSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMSlideView.h; sourceTree = "<group>"; };
+		E6007B261D8D272E00CFF425 /* CHMSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMSlideView.m; sourceTree = "<group>"; };
+		E6007B351D8D296900CFF425 /* ZFBADCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBADCell.h; sourceTree = "<group>"; };
+		E6007B361D8D296900CFF425 /* ZFBADCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBADCell.m; sourceTree = "<group>"; };
+		E6007BAF1D8D3EFA00CFF425 /* business.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = business.plist; sourceTree = "<group>"; };
+		E6007BB11D8D3EFA00CFF425 /* ZFBBusinessStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessStore.h; sourceTree = "<group>"; };
+		E6007BB21D8D3EFA00CFF425 /* ZFBBusinessStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessStore.m; sourceTree = "<group>"; };
+		E6007BB31D8D3EFA00CFF425 /* ZFBBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessViewController.h; sourceTree = "<group>"; };
+		E6007BB41D8D3EFA00CFF425 /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
+		E6007BB51D8D3EFA00CFF425 /* ZFBHanderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZFBHanderView.xib; sourceTree = "<group>"; };
+		E6007BB61D8D3EFA00CFF425 /* ZFBStarLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBStarLevel.h; sourceTree = "<group>"; };
+		E6007BB71D8D3EFA00CFF425 /* ZFBStarLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBStarLevel.m; sourceTree = "<group>"; };
+		E6007BB81D8D3EFA00CFF425 /* ZFBStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBStoreCell.h; sourceTree = "<group>"; };
+		E6007BB91D8D3EFA00CFF425 /* ZFBStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBStoreCell.m; sourceTree = "<group>"; };
+		E6007BC51D8D3F7C00CFF425 /* BusinessStore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessStore.xib; sourceTree = "<group>"; };
+		E6007BCC1D8D6F0900CFF425 /* businessType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = businessType.plist; sourceTree = "<group>"; };
+		E6007BCD1D8D6F0900CFF425 /* ZFBBusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessCell.h; sourceTree = "<group>"; };
+		E6007BCE1D8D6F0900CFF425 /* ZFBBusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessCell.m; sourceTree = "<group>"; };
+		E6007BCF1D8D6F0900CFF425 /* ZFBbusinessLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBbusinessLayout.h; sourceTree = "<group>"; };
+		E6007BD01D8D6F0900CFF425 /* ZFBbusinessLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBbusinessLayout.m; sourceTree = "<group>"; };
+		E6007BD11D8D6F0900CFF425 /* ZFBBusinessType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessType.h; sourceTree = "<group>"; };
+		E6007BD21D8D6F0900CFF425 /* ZFBBusinessType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessType.m; sourceTree = "<group>"; };
+		E6007BD31D8D6F0900CFF425 /* ZFBBusinessTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessTypeView.h; sourceTree = "<group>"; };
+		E6007BD41D8D6F0900CFF425 /* ZFBBusinessTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessTypeView.m; sourceTree = "<group>"; };
 		E6868FA71D8AD384009ED12F /* Alipay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alipay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6868FAB1D8AD384009ED12F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6868FAD1D8AD384009ED12F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,18 +135,21 @@
 		E6868FED1D8AD5BD009ED12F /* UIColor+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMAddition.m"; sourceTree = "<group>"; };
 		E6868FEE1D8AD5BD009ED12F /* UILabel+HMAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMAddition.h"; sourceTree = "<group>"; };
 		E6868FEF1D8AD5BD009ED12F /* UILabel+HMAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HMAddition.m"; sourceTree = "<group>"; };
-		E68690031D8ADE3E009ED12F /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
-		E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
 		E68690061D8ADE4C009ED12F /* ZFBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBHomeViewController.h; sourceTree = "<group>"; };
 		E68690071D8ADE4C009ED12F /* ZFBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBHomeViewController.m; sourceTree = "<group>"; };
 		E686900C1D8ADE66009ED12F /* ZFBMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMineViewController.h; sourceTree = "<group>"; };
 		E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMineViewController.m; sourceTree = "<group>"; };
 		E68690101D8AE187009ED12F /* ZFBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMainViewController.h; sourceTree = "<group>"; };
 		E68690111D8AE187009ED12F /* ZFBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMainViewController.m; sourceTree = "<group>"; };
-		E68690141D8AE205009ED12F /* ZFBBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessViewController.h; sourceTree = "<group>"; };
-		E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
 		E68690171D8AE47B009ED12F /* ZFBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBNavigationController.h; sourceTree = "<group>"; };
 		E68690181D8AE47B009ED12F /* ZFBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavigationController.m; sourceTree = "<group>"; };
+		E691203D1D8E54D700112B08 /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
+		E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
+		E69120411D8E55C800112B08 /* Home_Scroll_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_01.jpg; sourceTree = "<group>"; };
+		E69120421D8E55C800112B08 /* Home_Scroll_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_02.jpg; sourceTree = "<group>"; };
+		E69120431D8E55C800112B08 /* Home_Scroll_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_03.jpg; sourceTree = "<group>"; };
+		E69120441D8E55C800112B08 /* Home_Scroll_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_04.jpg; sourceTree = "<group>"; };
+		E69120451D8E55C800112B08 /* Home_Scroll_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_05.jpg; sourceTree = "<group>"; };
 		E6EDC3011D8AF50600C8AD2E /* ZFBCommonFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCommonFunctionView.h; sourceTree = "<group>"; };
 		E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCommonFunctionView.m; sourceTree = "<group>"; };
 		E6EDC3041D8AF52600C8AD2E /* ZFBFunctionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFunctionListView.h; sourceTree = "<group>"; };
@@ -124,6 +175,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6007B201D8D272E00CFF425 /* 图片轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				E6007B211D8D272E00CFF425 /* CHMSlideCell.h */,
+				E6007B221D8D272E00CFF425 /* CHMSlideCell.m */,
+				E6007B231D8D272E00CFF425 /* CHMSlideLayout.h */,
+				E6007B241D8D272E00CFF425 /* CHMSlideLayout.m */,
+				E6007B251D8D272E00CFF425 /* CHMSlideView.h */,
+				E6007B261D8D272E00CFF425 /* CHMSlideView.m */,
+			);
+			path = "图片轮播";
+			sourceTree = "<group>";
+		};
+		E6007BC11D8D3F0E00CFF425 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BB31D8D3EFA00CFF425 /* ZFBBusinessViewController.h */,
+				E6007BB41D8D3EFA00CFF425 /* ZFBBusinessViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E6007BC21D8D3F1F00CFF425 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BB51D8D3EFA00CFF425 /* ZFBHanderView.xib */,
+				E6007BC51D8D3F7C00CFF425 /* BusinessStore.xib */,
+				E6007BB61D8D3EFA00CFF425 /* ZFBStarLevel.h */,
+				E6007BB71D8D3EFA00CFF425 /* ZFBStarLevel.m */,
+				E6007BB81D8D3EFA00CFF425 /* ZFBStoreCell.h */,
+				E6007BB91D8D3EFA00CFF425 /* ZFBStoreCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E6007BC71D8D3FCD00CFF425 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BB11D8D3EFA00CFF425 /* ZFBBusinessStore.h */,
+				E6007BB21D8D3EFA00CFF425 /* ZFBBusinessStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E6007BCB1D8D6EE400CFF425 /* classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BCC1D8D6F0900CFF425 /* businessType.plist */,
+				E691203C1D8E545900112B08 /* Model */,
+				E691203B1D8E543800112B08 /* Views */,
+			);
+			name = "classify(分类)";
+			sourceTree = "<group>";
+		};
 		E6868F9E1D8AD384009ED12F = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +261,7 @@
 		E6868FAA1D8AD384009ED12F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E69120401D8E55C800112B08 /* 轮播广告 */,
 				E6868FB81D8AD384009ED12F /* LaunchScreen.storyboard */,
 				E6868FBB1D8AD384009ED12F /* Info.plist */,
 				E6868FB61D8AD384009ED12F /* Assets.xcassets */,
@@ -179,8 +285,8 @@
 		E6868FC31D8AD548009ED12F /* Friends（朋友） */ = {
 			isa = PBXGroup;
 			children = (
-				E68690031D8ADE3E009ED12F /* ZFBFriendsViewController.h */,
-				E68690041D8ADE3E009ED12F /* ZFBFriendsViewController.m */,
+				E691203D1D8E54D700112B08 /* ZFBFriendsViewController.h */,
+				E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */,
 			);
 			name = "Friends（朋友）";
 			path = Friends;
@@ -254,6 +360,7 @@
 		E6868FE31D8AD5BD009ED12F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E6007B201D8D272E00CFF425 /* 图片轮播 */,
 				E6868FE41D8AD5BD009ED12F /* Additions */,
 			);
 			path = Tools;
@@ -292,11 +399,56 @@
 		E68690131D8AE1A4009ED12F /* Business（口碑） */ = {
 			isa = PBXGroup;
 			children = (
-				E68690141D8AE205009ED12F /* ZFBBusinessViewController.h */,
-				E68690151D8AE205009ED12F /* ZFBBusinessViewController.m */,
+				E691203A1D8E541300112B08 /* list(列表） */,
+				E6007BCB1D8D6EE400CFF425 /* classify(分类) */,
+				E6007BC11D8D3F0E00CFF425 /* controller */,
 			);
 			name = "Business（口碑）";
 			path = Business;
+			sourceTree = "<group>";
+		};
+		E691203A1D8E541300112B08 /* list(列表） */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BAF1D8D3EFA00CFF425 /* business.plist */,
+				E6007BC21D8D3F1F00CFF425 /* Views */,
+				E6007BC71D8D3FCD00CFF425 /* Model */,
+			);
+			name = "list(列表）";
+			sourceTree = "<group>";
+		};
+		E691203B1D8E543800112B08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BCD1D8D6F0900CFF425 /* ZFBBusinessCell.h */,
+				E6007BCE1D8D6F0900CFF425 /* ZFBBusinessCell.m */,
+				E6007BCF1D8D6F0900CFF425 /* ZFBbusinessLayout.h */,
+				E6007BD01D8D6F0900CFF425 /* ZFBbusinessLayout.m */,
+				E6007BD31D8D6F0900CFF425 /* ZFBBusinessTypeView.h */,
+				E6007BD41D8D6F0900CFF425 /* ZFBBusinessTypeView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E691203C1D8E545900112B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6007BD11D8D6F0900CFF425 /* ZFBBusinessType.h */,
+				E6007BD21D8D6F0900CFF425 /* ZFBBusinessType.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E69120401D8E55C800112B08 /* 轮播广告 */ = {
+			isa = PBXGroup;
+			children = (
+				E69120411D8E55C800112B08 /* Home_Scroll_01.jpg */,
+				E69120421D8E55C800112B08 /* Home_Scroll_02.jpg */,
+				E69120431D8E55C800112B08 /* Home_Scroll_03.jpg */,
+				E69120441D8E55C800112B08 /* Home_Scroll_04.jpg */,
+				E69120451D8E55C800112B08 /* Home_Scroll_05.jpg */,
+			);
+			path = "轮播广告";
 			sourceTree = "<group>";
 		};
 		E6EDC2FF1D8AF3FC00C8AD2E /* 常用功能 */ = {
@@ -319,6 +471,8 @@
 				E6EDC30F1D8B72D000C8AD2E /* ZFBFunctionListLayout.m */,
 				E6EDC3111D8B775500C8AD2E /* ZFBFunctionCell.h */,
 				E6EDC3121D8B775500C8AD2E /* ZFBFunctionCell.m */,
+				E6007B351D8D296900CFF425 /* ZFBADCell.h */,
+				E6007B361D8D296900CFF425 /* ZFBADCell.m */,
 			);
 			name = "功能列表";
 			sourceTree = "<group>";
@@ -384,7 +538,16 @@
 			files = (
 				E6868FBA1D8AD384009ED12F /* LaunchScreen.storyboard in Resources */,
 				E6868FB71D8AD384009ED12F /* Assets.xcassets in Resources */,
+				E691204A1D8E55C800112B08 /* Home_Scroll_05.jpg in Resources */,
+				E69120461D8E55C800112B08 /* Home_Scroll_01.jpg in Resources */,
+				E6007BC61D8D3F7C00CFF425 /* BusinessStore.xib in Resources */,
+				E69120471D8E55C800112B08 /* Home_Scroll_02.jpg in Resources */,
+				E69120491D8E55C800112B08 /* Home_Scroll_04.jpg in Resources */,
+				E6007BBA1D8D3EFA00CFF425 /* business.plist in Resources */,
+				E69120481D8E55C800112B08 /* Home_Scroll_03.jpg in Resources */,
 				E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */,
+				E6007BBE1D8D3EFA00CFF425 /* ZFBHanderView.xib in Resources */,
+				E6007BD51D8D6F0900CFF425 /* businessType.plist in Resources */,
 				E6EDC30A1D8AF5A000C8AD2E /* homeAllFunctions.plist in Resources */,
 				E6868FF01D8AD5BD009ED12F /* Info.plist in Resources */,
 			);
@@ -397,12 +560,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6007BC01D8D3EFA00CFF425 /* ZFBStoreCell.m in Sources */,
 				E6EDC3131D8B775500C8AD2E /* ZFBFunctionCell.m in Sources */,
+				E6007BD71D8D6F0900CFF425 /* ZFBbusinessLayout.m in Sources */,
 				E6868FF21D8AD5BD009ED12F /* MASConstraint.m in Sources */,
 				E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */,
 				E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */,
+				E6007B271D8D272E00CFF425 /* CHMSlideCell.m in Sources */,
 				E6868FF51D8AD5BD009ED12F /* MASViewAttribute.m in Sources */,
+				E6007B371D8D296900CFF425 /* ZFBADCell.m in Sources */,
 				E6868FFA1D8AD5BD009ED12F /* ViewController+MASAdditions.m in Sources */,
+				E691203F1D8E54D700112B08 /* ZFBFriendsViewController.m in Sources */,
+				E6007BD91D8D6F0900CFF425 /* ZFBBusinessTypeView.m in Sources */,
 				E6868FF31D8AD5BD009ED12F /* MASConstraintMaker.m in Sources */,
 				E6EDC3101D8B72D000C8AD2E /* ZFBFunctionListLayout.m in Sources */,
 				E68690081D8ADE4C009ED12F /* ZFBHomeViewController.m in Sources */,
@@ -410,18 +579,23 @@
 				E6868FF81D8AD5BD009ED12F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				E6868FAF1D8AD384009ED12F /* AppDelegate.m in Sources */,
 				E6868FF11D8AD5BD009ED12F /* MASCompositeConstraint.m in Sources */,
+				E6007B281D8D272E00CFF425 /* CHMSlideLayout.m in Sources */,
 				E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */,
+				E6007BD81D8D6F0900CFF425 /* ZFBBusinessType.m in Sources */,
 				E6EDC30D1D8AF5FF00C8AD2E /* ZFBFunctionModel.m in Sources */,
 				E6868FFF1D8AD5BD009ED12F /* UILabel+HMAddition.m in Sources */,
-				E68690161D8AE205009ED12F /* ZFBBusinessViewController.m in Sources */,
 				E6868FF91D8AD5BD009ED12F /* View+MASAdditions.m in Sources */,
 				E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */,
 				E6868FFD1D8AD5BD009ED12F /* NSObject+HMAddition.m in Sources */,
-				E68690051D8ADE3E009ED12F /* ZFBFriendsViewController.m in Sources */,
 				E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */,
 				E6868FF71D8AD5BD009ED12F /* NSArray+MASAdditions.m in Sources */,
 				E6868FFC1D8AD5BD009ED12F /* NSAttributedString+HMAdditon.m in Sources */,
+				E6007BBC1D8D3EFA00CFF425 /* ZFBBusinessStore.m in Sources */,
+				E6007B291D8D272E00CFF425 /* CHMSlideView.m in Sources */,
+				E6007BBD1D8D3EFA00CFF425 /* ZFBBusinessViewController.m in Sources */,
+				E6007BBF1D8D3EFA00CFF425 /* ZFBStarLevel.m in Sources */,
 				E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */,
+				E6007BD61D8D6F0900CFF425 /* ZFBBusinessCell.m in Sources */,
 				E6868FF41D8AD5BD009ED12F /* MASLayoutConstraint.m in Sources */,
 				E6868FAC1D8AD384009ED12F /* main.m in Sources */,
 				E6868FF61D8AD5BD009ED12F /* MASViewConstraint.m in Sources */,

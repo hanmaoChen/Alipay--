@@ -35,4 +35,24 @@
     self.collectionView.showsHorizontalScrollIndicator = NO;
 }
 
+-(NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect{
+    
+//    遍历布局
+    NSArray *arr = [super layoutAttributesForElementsInRect:rect];
+    
+//    修改布局
+    for (UICollectionViewLayoutAttributes *arrt in arr) {
+//        找到需要改的
+        if (arrt.indexPath.section == 1) {
+            CGRect frame = arrt.frame;
+            frame.size.width = self.collectionView.bounds.size.width;
+            
+            arrt.frame = frame;
+            break;//修改完后跳出循环
+        }
+    }
+//    返回
+    return arr;
+}
+
 @end

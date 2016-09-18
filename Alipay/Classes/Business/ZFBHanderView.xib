@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fJj-qK-e2a">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="1142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_001" translatesAutoresizingMaskIntoConstraints="NO" id="jrv-vq-w44">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="jrv-vq-w44" secondAttribute="height" multiplier="3:2" id="h1e-Ij-yML"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_002" translatesAutoresizingMaskIntoConstraints="NO" id="D0x-iD-65a">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="D0x-iD-65a" secondAttribute="height" multiplier="3:2" id="l17-eN-gpb"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_003" translatesAutoresizingMaskIntoConstraints="NO" id="DlG-W2-e25">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DlG-W2-e25" secondAttribute="height" multiplier="3:2" id="6xb-pW-ofF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business_ad_004" translatesAutoresizingMaskIntoConstraints="NO" id="GSm-yj-cqC">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GSm-yj-cqC" secondAttribute="height" multiplier="3:2" id="pnt-ur-yal"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="loZ-FN-bvB" customClass="ZFBBusinessTypeView">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="KKW-mJ-XtN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DlG-W2-e25" firstAttribute="leading" secondItem="fJj-qK-e2a" secondAttribute="leading" constant="8" id="CaZ-XW-bpe"/>
+                <constraint firstItem="D0x-iD-65a" firstAttribute="leading" secondItem="fJj-qK-e2a" secondAttribute="leading" constant="8" id="E0l-T8-z4O"/>
+                <constraint firstAttribute="trailing" secondItem="loZ-FN-bvB" secondAttribute="trailing" id="Hjd-4K-KqP"/>
+                <constraint firstAttribute="trailing" secondItem="GSm-yj-cqC" secondAttribute="trailing" constant="8" id="LtQ-5x-H7l"/>
+                <constraint firstAttribute="trailing" secondItem="DlG-W2-e25" secondAttribute="trailing" constant="8" id="Pd9-UH-azP"/>
+                <constraint firstItem="loZ-FN-bvB" firstAttribute="top" secondItem="fJj-qK-e2a" secondAttribute="top" constant="20" id="RHs-7H-dbG"/>
+                <constraint firstAttribute="trailing" secondItem="D0x-iD-65a" secondAttribute="trailing" constant="8" id="Yih-7M-Y4k"/>
+                <constraint firstItem="GSm-yj-cqC" firstAttribute="leading" secondItem="fJj-qK-e2a" secondAttribute="leading" constant="8" id="aQH-nM-lkz"/>
+                <constraint firstItem="jrv-vq-w44" firstAttribute="top" secondItem="loZ-FN-bvB" secondAttribute="bottom" constant="8" id="bGn-kS-mvC"/>
+                <constraint firstItem="loZ-FN-bvB" firstAttribute="leading" secondItem="fJj-qK-e2a" secondAttribute="leading" id="hb5-rC-dBs"/>
+                <constraint firstItem="DlG-W2-e25" firstAttribute="top" secondItem="D0x-iD-65a" secondAttribute="bottom" constant="8" id="jZB-02-IzT"/>
+                <constraint firstAttribute="trailing" secondItem="jrv-vq-w44" secondAttribute="trailing" constant="8" id="ki7-WL-rdv"/>
+                <constraint firstItem="GSm-yj-cqC" firstAttribute="top" secondItem="DlG-W2-e25" secondAttribute="bottom" constant="8" id="m6C-Ji-oIN"/>
+                <constraint firstItem="D0x-iD-65a" firstAttribute="top" secondItem="jrv-vq-w44" secondAttribute="bottom" constant="8" id="v2W-om-WHQ"/>
+                <constraint firstItem="jrv-vq-w44" firstAttribute="leading" secondItem="fJj-qK-e2a" secondAttribute="leading" constant="8" id="x7j-hP-w6F"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="350.5" y="394"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="business_ad_001" width="720" height="480"/>
+        <image name="business_ad_002" width="720" height="480"/>
+        <image name="business_ad_003" width="720" height="480"/>
+        <image name="business_ad_004" width="720" height="480"/>
+    </resources>
+</document>
