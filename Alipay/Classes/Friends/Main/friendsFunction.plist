@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>APC_timeLineIcon</string>
+			<key>name</key>
+			<string>生活圈</string>
+			<key>pushVCName</key>
+			<string>ZFBMomentViewController</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>APC_message_icon</string>
+			<key>name</key>
+			<string>消息中心</string>
+			<key>detail</key>
+			<string>还信用卡立送5元！还款金额不限！</string>
+			<key>time</key>
+			<string>昨天</string>
+			<key>pushVCName</key>
+			<string>UIViewController</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>APC_service_icon</string>
+			<key>name</key>
+			<string>服务窗</string>
+			<key>detail</key>
+			<string>支付宝服务中心：[周五福利]来，把你败掉的钱赚回来</string>
+			<key>time</key>
+			<string>16/9/17</string>
+			<key>pushVCName</key>
+			<string>UIViewController</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>friend_head_01</string>
+			<key>name</key>
+			<string>老王</string>
+			<key>detail</key>
+			<string>你叫？</string>
+			<key>time</key>
+			<string>16/9/16</string>
+			<key>pushVCName</key>
+			<string>ZFBChatViewController</string>
+		</dict>
+	</array>
+</array>
+</plist>

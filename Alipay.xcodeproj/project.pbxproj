@@ -47,12 +47,15 @@
 		E686900E1D8ADE66009ED12F /* ZFBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E686900D1D8ADE66009ED12F /* ZFBMineViewController.m */; };
 		E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690111D8AE187009ED12F /* ZFBMainViewController.m */; };
 		E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68690181D8AE47B009ED12F /* ZFBNavigationController.m */; };
-		E691203F1D8E54D700112B08 /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */; };
 		E69120461D8E55C800112B08 /* Home_Scroll_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120411D8E55C800112B08 /* Home_Scroll_01.jpg */; };
 		E69120471D8E55C800112B08 /* Home_Scroll_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120421D8E55C800112B08 /* Home_Scroll_02.jpg */; };
 		E69120481D8E55C800112B08 /* Home_Scroll_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120431D8E55C800112B08 /* Home_Scroll_03.jpg */; };
 		E69120491D8E55C800112B08 /* Home_Scroll_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120441D8E55C800112B08 /* Home_Scroll_04.jpg */; };
 		E691204A1D8E55C800112B08 /* Home_Scroll_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E69120451D8E55C800112B08 /* Home_Scroll_05.jpg */; };
+		E69120511D8EAFD300112B08 /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69120501D8EAFD300112B08 /* ZFBFriendsViewController.m */; };
+		E69120551D8EB09800112B08 /* ZFBFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E69120541D8EB09800112B08 /* ZFBFriendsCell.m */; };
+		E691205B1D8EB14300112B08 /* ZFBFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */; };
+		E691205D1D8EB1D700112B08 /* friendsFunction.plist in Resources */ = {isa = PBXBuildFile; fileRef = E691205C1D8EB1D700112B08 /* friendsFunction.plist */; };
 		E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */; };
 		E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */; };
 		E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */; };
@@ -143,13 +146,18 @@
 		E68690111D8AE187009ED12F /* ZFBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMainViewController.m; sourceTree = "<group>"; };
 		E68690171D8AE47B009ED12F /* ZFBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBNavigationController.h; sourceTree = "<group>"; };
 		E68690181D8AE47B009ED12F /* ZFBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBNavigationController.m; sourceTree = "<group>"; };
-		E691203D1D8E54D700112B08 /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
-		E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
 		E69120411D8E55C800112B08 /* Home_Scroll_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_01.jpg; sourceTree = "<group>"; };
 		E69120421D8E55C800112B08 /* Home_Scroll_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_02.jpg; sourceTree = "<group>"; };
 		E69120431D8E55C800112B08 /* Home_Scroll_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_03.jpg; sourceTree = "<group>"; };
 		E69120441D8E55C800112B08 /* Home_Scroll_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_04.jpg; sourceTree = "<group>"; };
 		E69120451D8E55C800112B08 /* Home_Scroll_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Scroll_05.jpg; sourceTree = "<group>"; };
+		E691204F1D8EAFD300112B08 /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
+		E69120501D8EAFD300112B08 /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
+		E69120531D8EB09800112B08 /* ZFBFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsCell.h; sourceTree = "<group>"; };
+		E69120541D8EB09800112B08 /* ZFBFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsCell.m; sourceTree = "<group>"; };
+		E69120591D8EB14300112B08 /* ZFBFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsModel.h; sourceTree = "<group>"; };
+		E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsModel.m; sourceTree = "<group>"; };
+		E691205C1D8EB1D700112B08 /* friendsFunction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friendsFunction.plist; sourceTree = "<group>"; };
 		E6EDC3011D8AF50600C8AD2E /* ZFBCommonFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCommonFunctionView.h; sourceTree = "<group>"; };
 		E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCommonFunctionView.m; sourceTree = "<group>"; };
 		E6EDC3041D8AF52600C8AD2E /* ZFBFunctionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFunctionListView.h; sourceTree = "<group>"; };
@@ -285,8 +293,9 @@
 		E6868FC31D8AD548009ED12F /* Friends（朋友） */ = {
 			isa = PBXGroup;
 			children = (
-				E691203D1D8E54D700112B08 /* ZFBFriendsViewController.h */,
-				E691203E1D8E54D700112B08 /* ZFBFriendsViewController.m */,
+				E691204D1D8E658100112B08 /* Moment（朋友圈） */,
+				E69120521D8EAFDB00112B08 /* Chat（聊天） */,
+				E691204E1D8EAFD300112B08 /* Main(入口） */,
 			);
 			name = "Friends（朋友）";
 			path = Friends;
@@ -451,6 +460,61 @@
 			path = "轮播广告";
 			sourceTree = "<group>";
 		};
+		E691204D1D8E658100112B08 /* Moment（朋友圈） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Moment（朋友圈）";
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		E691204E1D8EAFD300112B08 /* Main(入口） */ = {
+			isa = PBXGroup;
+			children = (
+				E69120581D8EB12100112B08 /* View */,
+				E69120561D8EB0A800112B08 /* Controller */,
+				E69120571D8EB10A00112B08 /* Model */,
+			);
+			name = "Main(入口）";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E69120521D8EAFDB00112B08 /* Chat（聊天） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chat（聊天）";
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		E69120561D8EB0A800112B08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E691204F1D8EAFD300112B08 /* ZFBFriendsViewController.h */,
+				E69120501D8EAFD300112B08 /* ZFBFriendsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E69120571D8EB10A00112B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E691205C1D8EB1D700112B08 /* friendsFunction.plist */,
+				E69120531D8EB09800112B08 /* ZFBFriendsCell.h */,
+				E69120541D8EB09800112B08 /* ZFBFriendsCell.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E69120581D8EB12100112B08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E69120591D8EB14300112B08 /* ZFBFriendsModel.h */,
+				E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E6EDC2FF1D8AF3FC00C8AD2E /* 常用功能 */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,6 +604,7 @@
 				E6868FB71D8AD384009ED12F /* Assets.xcassets in Resources */,
 				E691204A1D8E55C800112B08 /* Home_Scroll_05.jpg in Resources */,
 				E69120461D8E55C800112B08 /* Home_Scroll_01.jpg in Resources */,
+				E691205D1D8EB1D700112B08 /* friendsFunction.plist in Resources */,
 				E6007BC61D8D3F7C00CFF425 /* BusinessStore.xib in Resources */,
 				E69120471D8E55C800112B08 /* Home_Scroll_02.jpg in Resources */,
 				E69120491D8E55C800112B08 /* Home_Scroll_04.jpg in Resources */,
@@ -565,12 +630,13 @@
 				E6007BD71D8D6F0900CFF425 /* ZFBbusinessLayout.m in Sources */,
 				E6868FF21D8AD5BD009ED12F /* MASConstraint.m in Sources */,
 				E68690191D8AE47B009ED12F /* ZFBNavigationController.m in Sources */,
+				E691205B1D8EB14300112B08 /* ZFBFriendsModel.m in Sources */,
 				E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */,
 				E6007B271D8D272E00CFF425 /* CHMSlideCell.m in Sources */,
 				E6868FF51D8AD5BD009ED12F /* MASViewAttribute.m in Sources */,
 				E6007B371D8D296900CFF425 /* ZFBADCell.m in Sources */,
 				E6868FFA1D8AD5BD009ED12F /* ViewController+MASAdditions.m in Sources */,
-				E691203F1D8E54D700112B08 /* ZFBFriendsViewController.m in Sources */,
+				E69120511D8EAFD300112B08 /* ZFBFriendsViewController.m in Sources */,
 				E6007BD91D8D6F0900CFF425 /* ZFBBusinessTypeView.m in Sources */,
 				E6868FF31D8AD5BD009ED12F /* MASConstraintMaker.m in Sources */,
 				E6EDC3101D8B72D000C8AD2E /* ZFBFunctionListLayout.m in Sources */,
@@ -592,6 +658,7 @@
 				E6868FFC1D8AD5BD009ED12F /* NSAttributedString+HMAdditon.m in Sources */,
 				E6007BBC1D8D3EFA00CFF425 /* ZFBBusinessStore.m in Sources */,
 				E6007B291D8D272E00CFF425 /* CHMSlideView.m in Sources */,
+				E69120551D8EB09800112B08 /* ZFBFriendsCell.m in Sources */,
 				E6007BBD1D8D3EFA00CFF425 /* ZFBBusinessViewController.m in Sources */,
 				E6007BBF1D8D3EFA00CFF425 /* ZFBStarLevel.m in Sources */,
 				E68690121D8AE187009ED12F /* ZFBMainViewController.m in Sources */,

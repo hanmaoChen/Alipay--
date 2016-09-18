@@ -65,6 +65,10 @@ static NSString *rid = @"slide";
 
 #pragma mark - 自动滚动的方法
 - (void)nextOne{
+    //切换到别的界面时，暂定轮播器
+    if (self.window == nil) {
+        return;
+    }
 //    获取当前cell的indexPath
     NSIndexPath *idxPath = [self.collectionView indexPathsForVisibleItems].lastObject;
     
