@@ -39,6 +39,7 @@
 //    取消半透明效果
     self.navigationBar.translucent = NO;
     
+    
 //    取消导航栏分隔线
 //    1、设置shadowImage图像为空
     self.navigationBar.shadowImage = [[UIImage alloc]init];

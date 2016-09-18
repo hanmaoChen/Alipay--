@@ -53,7 +53,6 @@
 //    显示原本的颜色
     vc.tabBarItem.selectedImage = [imgSel imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
-    
 //    3、设置文字
     vc.title = title;
    

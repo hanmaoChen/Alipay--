@@ -42,22 +42,23 @@
     _detailLabel.text = friends.detail;
     _timeLabel.text = friends.time;
     
-    if (self.detailLabel.text.length == 0 ) {
-        [_nameLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+    if (friends.detail.length == 0 ) {
+//      重置约束
+        [_nameLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
             
             make.centerY.equalTo(self.contentView);
+            make.left.equalTo(_iconView.mas_right).offset(8);
         }];
 //        附加按钮
         self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }else{
         
-        [_nameLabel mas_updateConstraints:^(MASConstraintMaker *make) {
-            
+        [_nameLabel mas_remakeConstraints:^(MASConstraintMaker *make) {
+//            重置约束
             make.top.equalTo(_iconView);
             make.left.equalTo(_iconView.mas_right).offset(8);
         }];
         self.accessoryType = UITableViewCellAccessoryNone;
-
     }
     
     

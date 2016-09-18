@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>user01_icon</string>
+		<key>name</key>
+		<string>sundi</string>
+		<key>content</key>
+		<string>啦啦啦，it&apos;s time to eat 饭了。</string>
+		<key>picture</key>
+		<string>cf</string>
+		<key>time</key>
+		<string>yesterday</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>user02_icon</string>
+		<key>name</key>
+		<string>xiaohuihui</string>
+		<key>content</key>
+		<string>我要上学去，天天不迟到，👌😝😯😊🏫😍🍚wuwuwuwuwuwuwuwuwuwuwuwwuwuwuwu</string>
+		<key>picture</key>
+		<string>img_0247</string>
+		<key>time</key>
+		<string>the day before yesterday</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>user01_icon</string>
+		<key>name</key>
+		<string>sundi</string>
+		<key>content</key>
+		<string>good good study,day day up.It&apos;s time to go to school...how are you,I&apos;m fine.and you?andyou?an you? and you?</string>
+		<key>picture</key>
+		<string>dlq</string>
+		<key>time</key>
+		<string>tomorrow</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>user02_icon</string>
+		<key>name</key>
+		<string>xiaohuihui</string>
+		<key>content</key>
+		<string>好羡慕啊。。。。。</string>
+		<key>picture</key>
+		<string>zx</string>
+		<key>time</key>
+		<string>the day before yesterday</string>
+	</dict>
+</array>
+</plist>

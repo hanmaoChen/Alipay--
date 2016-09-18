@@ -56,6 +56,12 @@
 		E69120551D8EB09800112B08 /* ZFBFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E69120541D8EB09800112B08 /* ZFBFriendsCell.m */; };
 		E691205B1D8EB14300112B08 /* ZFBFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */; };
 		E691205D1D8EB1D700112B08 /* friendsFunction.plist in Resources */ = {isa = PBXBuildFile; fileRef = E691205C1D8EB1D700112B08 /* friendsFunction.plist */; };
+		E69120601D8ED8DD00112B08 /* ZFBChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691205F1D8ED8DD00112B08 /* ZFBChatViewController.m */; };
+		E69120921D8EE02400112B08 /* moment.plist in Resources */ = {isa = PBXBuildFile; fileRef = E69120871D8EE02400112B08 /* moment.plist */; };
+		E69120951D8EE02400112B08 /* ZFBMomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E691208B1D8EE02400112B08 /* ZFBMomentCell.m */; };
+		E69120961D8EE02400112B08 /* ZFBMomentHanderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E691208D1D8EE02400112B08 /* ZFBMomentHanderView.m */; };
+		E69120971D8EE02400112B08 /* ZFBMomentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E691208F1D8EE02400112B08 /* ZFBMomentModel.m */; };
+		E69120981D8EE02400112B08 /* ZFBMomentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69120911D8EE02400112B08 /* ZFBMomentViewController.m */; };
 		E6EDC3031D8AF50600C8AD2E /* ZFBCommonFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */; };
 		E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EDC3051D8AF52600C8AD2E /* ZFBFunctionListView.m */; };
 		E6EDC3081D8AF58D00C8AD2E /* homeCommonFunctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EDC3071D8AF58D00C8AD2E /* homeCommonFunctions.plist */; };
@@ -158,6 +164,17 @@
 		E69120591D8EB14300112B08 /* ZFBFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsModel.h; sourceTree = "<group>"; };
 		E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsModel.m; sourceTree = "<group>"; };
 		E691205C1D8EB1D700112B08 /* friendsFunction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friendsFunction.plist; sourceTree = "<group>"; };
+		E691205E1D8ED8DD00112B08 /* ZFBChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBChatViewController.h; sourceTree = "<group>"; };
+		E691205F1D8ED8DD00112B08 /* ZFBChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBChatViewController.m; sourceTree = "<group>"; };
+		E69120871D8EE02400112B08 /* moment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moment.plist; sourceTree = "<group>"; };
+		E691208A1D8EE02400112B08 /* ZFBMomentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMomentCell.h; sourceTree = "<group>"; };
+		E691208B1D8EE02400112B08 /* ZFBMomentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMomentCell.m; sourceTree = "<group>"; };
+		E691208C1D8EE02400112B08 /* ZFBMomentHanderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMomentHanderView.h; sourceTree = "<group>"; };
+		E691208D1D8EE02400112B08 /* ZFBMomentHanderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMomentHanderView.m; sourceTree = "<group>"; };
+		E691208E1D8EE02400112B08 /* ZFBMomentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMomentModel.h; sourceTree = "<group>"; };
+		E691208F1D8EE02400112B08 /* ZFBMomentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMomentModel.m; sourceTree = "<group>"; };
+		E69120901D8EE02400112B08 /* ZFBMomentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBMomentViewController.h; sourceTree = "<group>"; };
+		E69120911D8EE02400112B08 /* ZFBMomentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBMomentViewController.m; sourceTree = "<group>"; };
 		E6EDC3011D8AF50600C8AD2E /* ZFBCommonFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBCommonFunctionView.h; sourceTree = "<group>"; };
 		E6EDC3021D8AF50600C8AD2E /* ZFBCommonFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBCommonFunctionView.m; sourceTree = "<group>"; };
 		E6EDC3041D8AF52600C8AD2E /* ZFBFunctionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFunctionListView.h; sourceTree = "<group>"; };
@@ -463,6 +480,14 @@
 		E691204D1D8E658100112B08 /* Moment（朋友圈） */ = {
 			isa = PBXGroup;
 			children = (
+				E69120871D8EE02400112B08 /* moment.plist */,
+				E691208A1D8EE02400112B08 /* ZFBMomentCell.h */,
+				E691208B1D8EE02400112B08 /* ZFBMomentCell.m */,
+				E691208C1D8EE02400112B08 /* ZFBMomentHanderView.h */,
+				E691208D1D8EE02400112B08 /* ZFBMomentHanderView.m */,
+				E691208E1D8EE02400112B08 /* ZFBMomentModel.h */,
+				E691208F1D8EE02400112B08 /* ZFBMomentModel.m */,
+				E69120991D8EE11200112B08 /* Controller */,
 			);
 			name = "Moment（朋友圈）";
 			path = Moment;
@@ -482,6 +507,8 @@
 		E69120521D8EAFDB00112B08 /* Chat（聊天） */ = {
 			isa = PBXGroup;
 			children = (
+				E691205E1D8ED8DD00112B08 /* ZFBChatViewController.h */,
+				E691205F1D8ED8DD00112B08 /* ZFBChatViewController.m */,
 			);
 			name = "Chat（聊天）";
 			path = Chat;
@@ -513,6 +540,15 @@
 				E691205A1D8EB14300112B08 /* ZFBFriendsModel.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		E69120991D8EE11200112B08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E69120901D8EE02400112B08 /* ZFBMomentViewController.h */,
+				E69120911D8EE02400112B08 /* ZFBMomentViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		E6EDC2FF1D8AF3FC00C8AD2E /* 常用功能 */ = {
@@ -606,6 +642,7 @@
 				E69120461D8E55C800112B08 /* Home_Scroll_01.jpg in Resources */,
 				E691205D1D8EB1D700112B08 /* friendsFunction.plist in Resources */,
 				E6007BC61D8D3F7C00CFF425 /* BusinessStore.xib in Resources */,
+				E69120921D8EE02400112B08 /* moment.plist in Resources */,
 				E69120471D8E55C800112B08 /* Home_Scroll_02.jpg in Resources */,
 				E69120491D8E55C800112B08 /* Home_Scroll_04.jpg in Resources */,
 				E6007BBA1D8D3EFA00CFF425 /* business.plist in Resources */,
@@ -634,10 +671,13 @@
 				E6EDC3061D8AF52600C8AD2E /* ZFBFunctionListView.m in Sources */,
 				E6007B271D8D272E00CFF425 /* CHMSlideCell.m in Sources */,
 				E6868FF51D8AD5BD009ED12F /* MASViewAttribute.m in Sources */,
+				E69120951D8EE02400112B08 /* ZFBMomentCell.m in Sources */,
 				E6007B371D8D296900CFF425 /* ZFBADCell.m in Sources */,
+				E69120981D8EE02400112B08 /* ZFBMomentViewController.m in Sources */,
 				E6868FFA1D8AD5BD009ED12F /* ViewController+MASAdditions.m in Sources */,
 				E69120511D8EAFD300112B08 /* ZFBFriendsViewController.m in Sources */,
 				E6007BD91D8D6F0900CFF425 /* ZFBBusinessTypeView.m in Sources */,
+				E69120601D8ED8DD00112B08 /* ZFBChatViewController.m in Sources */,
 				E6868FF31D8AD5BD009ED12F /* MASConstraintMaker.m in Sources */,
 				E6EDC3101D8B72D000C8AD2E /* ZFBFunctionListLayout.m in Sources */,
 				E68690081D8ADE4C009ED12F /* ZFBHomeViewController.m in Sources */,
@@ -646,6 +686,7 @@
 				E6868FAF1D8AD384009ED12F /* AppDelegate.m in Sources */,
 				E6868FF11D8AD5BD009ED12F /* MASCompositeConstraint.m in Sources */,
 				E6007B281D8D272E00CFF425 /* CHMSlideLayout.m in Sources */,
+				E69120971D8EE02400112B08 /* ZFBMomentModel.m in Sources */,
 				E6868FFE1D8AD5BD009ED12F /* UIColor+HMAddition.m in Sources */,
 				E6007BD81D8D6F0900CFF425 /* ZFBBusinessType.m in Sources */,
 				E6EDC30D1D8AF5FF00C8AD2E /* ZFBFunctionModel.m in Sources */,
@@ -666,6 +707,7 @@
 				E6868FF41D8AD5BD009ED12F /* MASLayoutConstraint.m in Sources */,
 				E6868FAC1D8AD384009ED12F /* main.m in Sources */,
 				E6868FF61D8AD5BD009ED12F /* MASViewConstraint.m in Sources */,
+				E69120961D8EE02400112B08 /* ZFBMomentHanderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
